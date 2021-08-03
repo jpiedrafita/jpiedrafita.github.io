@@ -205,14 +205,14 @@ section:last-child {
 .aws {width: 50%; background-color: skyblue;}
 .unity {width: 40%; background-color: powderblue;}*/
 
-.leadership {width: 75%; background-color: darkorange;}
-.problemsolving {width: 90%; background-color: darkorange;}
-.communication {width: 75%; background-color: darkorange;}
-.agile {width: 60%; background-color: darkorange;}
-.testmanagement {width: 80%; background-color: darkorange;}
-.solutionmanager {width: 90%; background-color: darkorange;}
-.aws {width: 50%; background-color: darkorange;}
-.unity {width: 40%; background-color: darkorange;}
+.leadership {width: 75%; background-color: #cf8a05;}
+.problemsolving {width: 90%; background-color: #cf8a05;}
+.communication {width: 75%; background-color: #cf8a05;}
+.agile {width: 60%; background-color: #cf8a05;}
+.testmanagement {width: 80%; background-color: #cf8a05;}
+.solutionmanager {width: 90%; background-color: #cf8a05;}
+.aws {width: 50%; background-color: #cf8a05;}
+.unity {width: 40%; background-color: #cf8a05;}
 
 @media all and (max-width: 601px) {
 	#cv {
