@@ -185,12 +185,13 @@ section:last-child {
 	margin-top: 2px;
 	width:  100%;
 	background-color: #ddd;
-	margin-bottom: 6px;
+	margin-bottom: 6px
 }
 
 .skillBar {
 	text-align: left;
 	text-indent: 8px;
+	font-size: 70%;
 	padding-top: 2px;
 	padding-bottom: 2px;
 	color: white;
