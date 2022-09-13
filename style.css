@@ -207,6 +207,8 @@ section:last-child {
 .sectionContent {
 	float: right;
 	width: 72.5%;
+	text-align: justify;
+	text-justify: inter-word;
 }
 
 .sectionTitle h1 {
@@ -293,43 +295,43 @@ section:last-child {
 .aws {width: 50%; background-color: skyblue;}
 .unity {width: 40%; background-color: powderblue;}*/
 
-.leadership {
+.softskill1 {
 	width: 75%;
 	background-color: #cf8a05;
 }
 
-.problemsolving {
+.softskill2 {
 	width: 90%;
 	background-color: #cf8a05;
 }
 
-.communication {
+.softskill3 {
 	width: 75%;
 	background-color: #cf8a05;
 }
 
-.agile {
+.softskill4 {
 	width: 60%;
 	background-color: #cf8a05;
 }
 
-.testmanagement {
-	width: 80%;
+.techskill1 {
+	width: 60%;
 	background-color: #cf8a05;
 }
 
-.solutionmanager {
-	width: 90%;
+.techskill2 {
+	width: 40%;
 	background-color: #cf8a05;
 }
 
-.aws {
-	width: 50%;
+.techskill3 {
+	width: 30%;
 	background-color: #cf8a05;
 }
 
-.unity {
-	width: 35%;
+.techskill4 {
+	width: 85%;
 	background-color: #cf8a05;
 }
 
