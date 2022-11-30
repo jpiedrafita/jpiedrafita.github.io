@@ -296,7 +296,7 @@ section:last-child {
 .unity {width: 40%; background-color: powderblue;}*/
 
 .softskill1 {
-	width: 75%;
+	width: 80%;
 	background-color: #cf8a05;
 }
 
@@ -311,27 +311,27 @@ section:last-child {
 }
 
 .softskill4 {
-	width: 60%;
+	width: 65%;
 	background-color: #cf8a05;
 }
 
 .techskill1 {
-	width: 60%;
+	width: 75%;
 	background-color: #cf8a05;
 }
 
 .techskill2 {
-	width: 40%;
+	width: 60%;
 	background-color: #cf8a05;
 }
 
 .techskill3 {
-	width: 30%;
+	width: 50%;
 	background-color: #cf8a05;
 }
 
 .techskill4 {
-	width: 85%;
+	width: 60%;
 	background-color: #cf8a05;
 }
 
