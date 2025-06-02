@@ -532,3 +532,15 @@ section:last-child {
 	-moz-animation-delay: 0, 2.5s;
 	animation-delay: 0, 2.5s;
 }
+
+.sectionContent ul {
+	margin: 0 0 20px 20px;
+	padding-left: 20px;
+	list-style-type: disc;
+	color: #444;
+}
+
+.sectionContent ul li {
+	margin-bottom: 6px;
+	line-height: 1.3em;
+}
