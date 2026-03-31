@@ -428,7 +428,7 @@ section:last-child {
 }
 
 .softskill3 {
-	width: 75%;
+	width: 80%;
 	background: linear-gradient(90deg, #ff00ff 0%, #ff0080 100%);
 	box-shadow: 
 		0 0 15px rgba(255, 0, 255, 0.5),
@@ -436,7 +436,7 @@ section:last-child {
 }
 
 .softskill4 {
-	width: 65%;
+	width: 75%;
 	background: linear-gradient(90deg, #ff00ff 0%, #ff0080 100%);
 	box-shadow: 
 		0 0 15px rgba(255, 0, 255, 0.5),
@@ -453,7 +453,7 @@ section:last-child {
 }
 
 .techskill2 {
-	width: 80%;
+	width: 85%;
 	background: linear-gradient(90deg, #00f3ff 0%, #00ffaa 100%);
 	box-shadow: 
 		0 0 15px rgba(0, 243, 255, 0.5),
@@ -462,7 +462,7 @@ section:last-child {
 }
 
 .techskill3 {
-	width: 65%;
+	width: 80%;
 	background: linear-gradient(90deg, #00f3ff 0%, #00ffaa 100%);
 	box-shadow: 
 		0 0 15px rgba(0, 243, 255, 0.5),
