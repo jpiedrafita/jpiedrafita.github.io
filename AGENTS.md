@@ -3,7 +3,7 @@
 ## Repo Shape
 - This is a vanilla static CV site: `index.html` is the entrypoint and `style.css` contains all styling.
 - There is no package manifest, build step, test runner, lint config, formatter config, CI workflow, or code generation in this repo.
-- `index.html` references `style.css`, Google Fonts, and `portrait.png`; `portrait2.png` exists but is not referenced by the page.
+- `index.html` references `style.css`, Google Fonts, and `assets/portrait.png`; `assets/portrait2.png` exists but is not referenced by the page.
 
 ## Local Verification
 - Do not look for `npm`/`pnpm`/`yarn` scripts; there are none.
@@ -23,4 +23,4 @@
 
 ## Owner Reference
 - `https://cv.nan.builders/` is a private owner reference for CV analysis; do not add it to the public CV or surface it to visitors unless explicitly asked.
-- For analyzer runs, use `.opencode/skills/cv-analyzer`; it exports visible `index.html` content to ignored `cv.txt`, submits it to the analyzer, and saves ignored `cv-analysis.json` without `_cvText`.
+- For analyzer runs, use `.opencode/skills/cv-analyzer`; generated analyzer artifacts should live under ignored `dist/`.

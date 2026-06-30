@@ -31,8 +31,8 @@ bash .opencode/skills/cv-analyzer/scripts/analyze-cv.sh . es
 
 2. Review generated files:
 
-- `cv.txt`: visible CV content extracted from `index.html`.
-- `cv-analysis.json`: analyzer response with `_cvText` removed before saving.
+- `dist/cv.txt`: visible CV content extracted from `index.html`.
+- `dist/cv-analysis.json`: analyzer response with `_cvText` removed before saving.
 
 3. Report the score, headline, and top priorities. Do not blindly apply analyzer suggestions; preserve factual accuracy and ask before adding private contact details.
 

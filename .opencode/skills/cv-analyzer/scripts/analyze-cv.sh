@@ -5,8 +5,9 @@ repo_root="${1:-.}"
 lang="${2:-es}"
 
 index_file="$repo_root/index.html"
-cv_file="$repo_root/cv.txt"
-analysis_file="$repo_root/cv-analysis.json"
+dist_dir="$repo_root/dist"
+cv_file="$dist_dir/cv.txt"
+analysis_file="$dist_dir/cv-analysis.json"
 
 if [[ ! -f "$index_file" ]]; then
   printf 'error: index.html not found at %s\n' "$index_file" >&2
@@ -20,6 +21,8 @@ fi
 
 command -v python3 >/dev/null 2>&1 || { printf 'error: python3 is required\n' >&2; exit 1; }
 command -v curl >/dev/null 2>&1 || { printf 'error: curl is required\n' >&2; exit 1; }
+
+mkdir -p "$dist_dir"
 
 python3 - "$index_file" "$cv_file" <<'PY'
 import html
