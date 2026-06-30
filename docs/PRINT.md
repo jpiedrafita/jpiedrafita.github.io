@@ -46,6 +46,22 @@ The export script uses Chrome, Chromium, or Microsoft Edge in headless mode. If 
 Print > Save as PDF
 ```
 
+## Analyze The PDF
+
+From `print` or a `process/...` branch:
+
+```bash
+bash .opencode/skills/cv-analyzer/scripts/analyze-cv.sh . es
+```
+
+The analyzer script generates the PDF first and sends `dist/jorge-piedrafita-cv.pdf` to the CV analyzer. It saves the response to:
+
+```text
+cv-analysis.json
+```
+
+`cv-analysis.json` is ignored by Git.
+
 ## Create A Process-Specific CV
 
 Create branches for selection processes from `print`:
@@ -63,4 +79,5 @@ Then adapt the profile, skills, and achievements for that specific process and e
 - Keep `print` as the general printable CV.
 - Put company- or role-specific changes only in `process/...` branches.
 - Do not commit files under `dist/`.
+- Do not commit `cv-analysis.json`.
 - Keep the printable version compact, readable, and suitable for one to two A4 pages.
