@@ -57,15 +57,27 @@ make analyze
 The analyzer script generates the PDF first and sends `dist/jorge-piedrafita-cv.pdf` to the CV analyzer. It saves the response to:
 
 ```text
-cv-analysis.json
+dist/cv-analysis.json
 ```
 
-`cv-analysis.json` is ignored by Git.
+`dist/cv-analysis.json` is ignored by Git.
 
 To analyze in English:
 
 ```bash
 make analyze ANALYZE_LANG=en
+```
+
+To have Opencode explain an existing `dist/cv-analysis.json`:
+
+```bash
+make explain-analysis
+```
+
+To run the analyzer and then ask Opencode to explain the result:
+
+```bash
+make analyze-agent
 ```
 
 ## Create A Process-Specific CV
@@ -85,5 +97,5 @@ Then adapt the profile, skills, and achievements for that specific process and e
 - Keep `print` as the general printable CV.
 - Put company- or role-specific changes only in `process/...` branches.
 - Do not commit files under `dist/`.
-- Do not commit `cv-analysis.json`.
+- Do not commit `dist/cv-analysis.json`.
 - Keep the printable version compact, readable, and suitable for one to two A4 pages.

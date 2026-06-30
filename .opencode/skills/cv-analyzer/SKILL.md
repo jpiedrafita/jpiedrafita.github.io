@@ -35,6 +35,18 @@ bash .opencode/skills/cv-analyzer/scripts/analyze-cv.sh . es
 
 3. Report the score, headline, and top priorities. Do not blindly apply analyzer suggestions; preserve factual accuracy and ask before adding private contact details.
 
+The Makefile exposes the same workflow:
+
+```bash
+make analyze
+make explain-analysis
+make analyze-agent
+```
+
+- `make analyze`: generate the PDF, submit it to the analyzer, and write `dist/cv-analysis.json`.
+- `make explain-analysis`: use Opencode to explain an existing `dist/cv-analysis.json`.
+- `make analyze-agent`: run both steps.
+
 ## Output Guidance
 
 - Lead with the analyzer score and the top actionable findings.

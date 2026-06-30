@@ -23,4 +23,4 @@
 
 ## Owner Reference
 - `https://cv.nan.builders/` is a private owner reference for CV analysis; do not add it to the public CV or surface it to visitors unless explicitly asked.
-- For analyzer runs, use `.opencode/skills/cv-analyzer`; generated analyzer artifacts should live under ignored `dist/`.
+- For analyzer runs, use `.opencode/skills/cv-analyzer`; on the printable workflow it exports the PDF with `scripts/export-pdf.sh`, submits the ignored `dist/jorge-piedrafita-cv.pdf` artifact to the analyzer, and saves ignored `dist/cv-analysis.json` without `_cvText`.
