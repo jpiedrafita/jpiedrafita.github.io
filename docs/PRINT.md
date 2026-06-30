@@ -15,7 +15,7 @@ Do not make process-specific edits on `main` or `print`. Keep `print` as the reu
 From the repository root:
 
 ```bash
-python3 -m http.server 8000
+make preview
 ```
 
 Open:
@@ -29,7 +29,7 @@ http://localhost:8000/
 From the repository root:
 
 ```bash
-./scripts/export-pdf.sh
+make pdf
 ```
 
 The generated PDF is written to:
@@ -51,7 +51,7 @@ Print > Save as PDF
 From `print` or a `process/...` branch:
 
 ```bash
-bash .opencode/skills/cv-analyzer/scripts/analyze-cv.sh . es
+make analyze
 ```
 
 The analyzer script generates the PDF first and sends `dist/jorge-piedrafita-cv.pdf` to the CV analyzer. It saves the response to:
@@ -61,6 +61,12 @@ cv-analysis.json
 ```
 
 `cv-analysis.json` is ignored by Git.
+
+To analyze in English:
+
+```bash
+make analyze ANALYZE_LANG=en
+```
 
 ## Create A Process-Specific CV
 
